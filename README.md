@@ -1,6 +1,10 @@
 # melanite
 Yet another dark color scheme.
 
+## Previews
+### iTerm2
+![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/iterm2/melanite-preview.png)
+
 ## The values
 ```
 MELANITE RGBHEX  CIE L*a*b*  ANSI-256 description
