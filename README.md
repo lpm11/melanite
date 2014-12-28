@@ -5,6 +5,9 @@ Yet another dark color scheme.
 ### iTerm2
 ![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/iterm2/melanite-preview.png)
 
+### base16
+![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/base16/preview-base16-melanite.png)
+
 ## The values
 ```
 MELANITE RGBHEX  CIE L*a*b*  ANSI-256 description
@@ -84,7 +87,9 @@ base0E purple   #c09cef   70
 base0F violet*  #c65dad   55
 ```
 
-### Light theme (not well-tested, tentative values)
+## Base16 light theme
+Light theme is not well-tested, these are tentative values.
+
 ```
 base16 MELANITE RGBHEX   L* (a*b*)
 ------ -------- -------- -----------
@@ -105,3 +110,5 @@ base0D blue*    #6697b8   60
 base0E purple*  #a482d2   60
 base0F violet*  #c65dad   55
 ```
+
+![melanite-light Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/base16/preview-base16-melanite-light.png)
