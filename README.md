@@ -84,7 +84,7 @@ base0E purple   #c09cef   70
 base0F violet*  #c65dad   55
 ```
 
-### Light theme (not well-tested)
+### Light theme (not well-tested, tentative values)
 ```
 base16 MELANITE RGBHEX   L* (a*b*)
 ------ -------- -------- -----------
