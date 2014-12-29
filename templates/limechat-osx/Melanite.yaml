@@ -1,0 +1,54 @@
+# All colors must be in the form of '#rrggbb' or '#rgb'.
+# You cannot use color names.
+
+log-view:
+  nickname-format: '%n: '
+  scroller-highlight-color: '@melanite-orange'
+input-text:
+  font-family: 'Lucida Grande'
+  font-size: 13.0
+  background-color: '@melanite-bg1'
+  color: '@melanite-fg2'
+  selected:
+    background-color: '@melanite-bg2'
+member-list:
+  font-family: 'Lucida Grande'
+  font-size: 13.0
+  color: '@melanite-fg1'
+  background-color: '@melanite-bg1'
+  operator:
+    color: '@melanite-blue'
+  selected:
+    color: '@melanite-fg1'
+    background:
+      # gradient
+      top-line-color: '@melanite-bg2'
+      bottom-line-color: '@melanite-bg2'
+      top-color: '@melanite-bg2'
+      bottom-color: '@melanite-bg2'
+server-tree:
+  font-family: 'Lucida Grande'
+  font-size: 13.0
+  background-color: '@melanite-bg1'
+  highlight:
+    color: '@melanite-orange'
+  newtalk:
+    color: '@melanite-blue'
+  unread:
+    color: '@melanite-blue'
+  normal:
+    active:
+      color: '@melanite-fg1'
+    inactive:
+      color: '@melanite-fgb'
+  selected:
+    active:
+      color: '@melanite-fg1'
+    inactive:
+      color: '@melanite-fgb'
+    background:
+      # gradient
+      top-line-color: '@melanite-bg2'
+      bottom-line-color: '@melanite-bg2'
+      top-color: '@melanite-bg2'
+      bottom-color: '@melanite-bg2'
