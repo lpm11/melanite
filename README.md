@@ -3,10 +3,10 @@ Yet another dark color scheme.
 
 ## Previews
 ### iTerm2
-![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/iterm2/melanite-preview.png)
+![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-preview.png)
 
 ### base16
-![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/base16/preview-base16-melanite.png)
+![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/base16/preview-base16-melanite.png)
 
 ## The values
 ```
@@ -111,4 +111,4 @@ base0E purple*  #a482d2   60
 base0F violet*  #c65dad   55
 ```
 
-![melanite-light Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/base16/preview-base16-melanite-light.png)
+![melanite-light Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/base16/preview-base16-melanite-light.png)
