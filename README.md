@@ -5,6 +5,9 @@ Yet another dark color scheme.
 ### iTerm2
 ![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-preview.png)
 
+### LimeChat (OS X)
+![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/melanite-preview.png)
+
 ### base16
 ![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/base16/preview-base16-melanite.png)
 
