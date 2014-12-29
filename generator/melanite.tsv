@@ -12,6 +12,8 @@ cyan	#00c1b0
 blue	#80b2d4
 purple	#c09cef
 violet	#f186d7
+fg-l0	#000102
+bg-l0	#000205
 gray-l0	#000000
 red-l0	#450000
 orange-l0	#3c0000
@@ -21,6 +23,8 @@ cyan-l0	#001b07
 blue-l0	#000a25
 purple-l0	#130038
 violet-l0	#340027
+fg-l5	#0e1112
+bg-l5	#0b1214
 gray-l5	#111111
 red-l5	#50000a
 orange-l5	#420000
@@ -30,6 +34,8 @@ cyan-l5	#002315
 blue-l5	#00172f
 purple-l5	#180043
 violet-l5	#3d0031
+fg-l10	#1a1c1d
+bg-l10	#171c1e
 gray-l10	#1b1b1b
 red-l10	#5e0018
 orange-l10	#4b0000
@@ -39,6 +45,8 @@ cyan-l10	#002920
 blue-l10	#00203a
 purple-l10	#240c4f
 violet-l10	#4a003c
+fg-l15	#242627
+bg-l15	#222728
 gray-l15	#262626
 red-l15	#6d0022
 orange-l15	#570100
@@ -48,6 +56,8 @@ cyan-l15	#00322a
 blue-l15	#002b46
 purple-l15	#30175b
 violet-l15	#570048
+fg-l20	#2e3132
+bg-l20	#2c3133
 gray-l20	#303030
 red-l20	#7b002c
 orange-l20	#631100
@@ -57,6 +67,8 @@ cyan-l20	#003e35
 blue-l20	#003651
 purple-l20	#3d2267
 violet-l20	#640054
+fg-l25	#393c3d
+bg-l25	#373c3e
 gray-l25	#3b3b3b
 red-l25	#8a0037
 orange-l25	#701f00
@@ -66,6 +78,8 @@ cyan-l25	#004a40
 blue-l25	#00415d
 purple-l25	#492d74
 violet-l25	#720060
+fg-l30	#444748
+bg-l30	#42484a
 gray-l30	#474747
 red-l30	#990042
 orange-l30	#7d2c00
@@ -75,6 +89,8 @@ cyan-l30	#00574b
 blue-l30	#114c6a
 purple-l30	#553881
 violet-l30	#7f166c
+fg-l35	#505354
+bg-l35	#4e5355
 gray-l35	#525252
 red-l35	#a8004d
 orange-l35	#8c3800
@@ -84,6 +100,8 @@ cyan-l35	#006357
 blue-l35	#225876
 purple-l35	#62448e
 violet-l35	#8d2679
+fg-l40	#5c5f60
+bg-l40	#5a5f61
 gray-l40	#5e5e5e
 red-l40	#b70559
 orange-l40	#9a4400
@@ -93,6 +111,8 @@ cyan-l40	#007063
 blue-l40	#306483
 purple-l40	#6f509b
 violet-l40	#9b3586
+fg-l45	#686b6c
+bg-l45	#666c6e
 gray-l45	#6a6a6a
 red-l45	#c62265
 orange-l45	#a95100
@@ -102,6 +122,8 @@ cyan-l45	#007d70
 blue-l45	#3e7190
 purple-l45	#7c5ca9
 violet-l45	#a94293
+fg-l50	#757879
+bg-l50	#72787a
 gray-l50	#777777
 red-l50	#d53571
 orange-l50	#b85d00
@@ -111,6 +133,8 @@ cyan-l50	#008a7c
 blue-l50	#4b7d9d
 purple-l50	#8968b6
 violet-l50	#b750a0
+fg-l55	#818485
+bg-l55	#7f8587
 gray-l55	#848484
 red-l55	#e5457d
 orange-l55	#c76a00
@@ -120,6 +144,8 @@ cyan-l55	#009889
 blue-l55	#588aaa
 purple-l55	#9775c4
 violet-l55	#c65dad
+fg-l60	#8e9192
+bg-l60	#8c9294
 gray-l60	#919191
 red-l60	#f4548a
 orange-l60	#d77700
@@ -129,6 +155,8 @@ cyan-l60	#00a596
 blue-l60	#6697b8
 purple-l60	#a482d2
 violet-l60	#d46bbb
+fg-l65	#9b9e9f
+bg-l65	#999fa1
 gray-l65	#9e9e9e
 red-l65	#ff6397
 orange-l65	#e68400
@@ -138,6 +166,8 @@ cyan-l65	#00b3a3
 blue-l65	#73a5c6
 purple-l65	#b28fe0
 violet-l65	#e378c9
+fg-l70	#a9acad
+bg-l70	#a6acaf
 gray-l70	#ababab
 red-l70	#ff72a4
 orange-l70	#f69113
@@ -147,6 +177,8 @@ cyan-l70	#00c1b0
 blue-l70	#80b2d4
 purple-l70	#c09cef
 violet-l70	#f186d7
+fg-l75	#b6b9ba
+bg-l75	#b3babc
 gray-l75	#b9b9b9
 red-l75	#ff80b2
 orange-l75	#ff9e26
@@ -156,6 +188,8 @@ cyan-l75	#29cfbe
 blue-l75	#8ec0e2
 purple-l75	#cea9fd
 violet-l75	#ff93e5
+fg-l80	#c4c7c8
+bg-l80	#c1c8ca
 gray-l80	#c6c6c6
 red-l80	#ff8fbf
 orange-l80	#ffac36
@@ -165,6 +199,8 @@ cyan-l80	#40ddcc
 blue-l80	#9ccef0
 purple-l80	#dcb7ff
 violet-l80	#ffa1f3
+fg-l85	#d2d5d6
+bg-l85	#cfd6d8
 gray-l85	#d4d4d4
 red-l85	#ff9dcd
 orange-l85	#ffba44
@@ -174,6 +210,8 @@ cyan-l85	#53ebda
 blue-l85	#aadcff
 purple-l85	#ebc5ff
 violet-l85	#ffafff
+fg-l90	#e0e3e4
+bg-l90	#dde4e6
 gray-l90	#e2e2e2
 red-l90	#ffabdb
 orange-l90	#ffc852
@@ -183,6 +221,8 @@ cyan-l90	#64fae8
 blue-l90	#b8eaff
 purple-l90	#f9d3ff
 violet-l90	#ffbdff
+fg-l95	#eef1f2
+bg-l95	#ebf2f4
 gray-l95	#f1f1f1
 red-l95	#ffbae9
 orange-l95	#ffd660
@@ -192,6 +232,8 @@ cyan-l95	#75fff6
 blue-l95	#c6f8ff
 purple-l95	#ffe1ff
 violet-l95	#ffcbff
+fg-l100	#fcffff
+bg-l100	#faffff
 gray-l100	#ffffff
 red-l100	#ffc9f8
 orange-l100	#ffe46e

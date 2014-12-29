@@ -5,39 +5,31 @@ from colormath.color_objects import *;
 from colormath.color_conversions import convert_color;
 import argparse;
 
+BG_COLOR_A = -2;
+BG_COLOR_B = -2;
+FG_COLOR_A = -1;
+FG_COLOR_B = -1;
 
-BASE_COLOR_NAMES = [
+BG_COLOR_NAMES = [
     "bg1",
     "bg2",
+];
+FG_COLOR_NAMES = [
     "fgb",
     "fga",
     "fg1",
     "fg2",
 ];
-BASE_COLOR_LIGHTS = [
-    15,
-    30,
+FG_COLOR_LIGHTS = [
     45,
     50,
     80,
     90,
 ];
-BASE_COLOR_AS = [
-    -2,
-    -2,
-    -1,
-    -1,
-    -1,
-    -1,
-]
-BASE_COLOR_BS = [
-    -2,
-    -2,
-    -1,
-    -1,
-    -1,
-    -1,
-]
+BG_COLOR_LIGHTS = [
+    15,
+    30,
+];
 
 ACCENT_COLOR_NAMES = [
     "red",
@@ -89,18 +81,26 @@ def main():
     parser = argparse.ArgumentParser(description="melanite color scheme generator");
     parser.add_argument("--lab-observer", metavar="N", default="2");
     parser.add_argument("--lab-illuminant", metavar="N", default="d50");
-    for ci, cname in enumerate(BASE_COLOR_NAMES):
-        parser.add_argument("--{}-l".format(cname), metavar="LIGHT", type=int,
-                            help="Light for {}".format(cname), default=BASE_COLOR_LIGHTS[ci]);
-        parser.add_argument("--{}-a".format(cname), metavar="A", type=int,
-                            help="a* for {}".format(cname), default=BASE_COLOR_AS[ci]);
-        parser.add_argument("--{}-b".format(cname), metavar="B", type=int,
-                            help="b* for {}".format(cname), default=BASE_COLOR_BS[ci]);
+
+    parser.add_argument("--bg-a", metavar="A", type=int, help="a* for background", default=BG_COLOR_A);
+    parser.add_argument("--bg-b", metavar="B", type=int, help="b* for background", default=BG_COLOR_A);
+    parser.add_argument("--fg-a", metavar="A", type=int, help="a* for foreground", default=FG_COLOR_A);
+    parser.add_argument("--fg-b", metavar="B", type=int, help="b* for foreground", default=FG_COLOR_A);
+    for bi, base_color_names in enumerate([ BG_COLOR_NAMES, FG_COLOR_NAMES ]):
+        base_color_lights = [ BG_COLOR_LIGHTS, FG_COLOR_LIGHTS ][bi];
+        for ci, cname in enumerate(base_color_names):
+            parser.add_argument("--{}-l".format(cname), metavar="LIGHT", type=int,
+                                help="Light for {}".format(cname), default=base_color_lights[ci]);
+            parser.add_argument("--{}-a".format(cname), metavar="A", type=int,
+                                help="a* for {}".format(cname));
+            parser.add_argument("--{}-b".format(cname), metavar="B", type=int,
+                                help="b* for {}".format(cname));
     for ci, cname in enumerate(ACCENT_COLOR_NAMES):
         parser.add_argument("--{}-c".format(cname), metavar="CHROMA", type=int,
                             help="Saturation for {}".format(cname), default=ACCENT_COLOR_CHROMAS[ci]);
         parser.add_argument("--{}-h".format(cname), metavar="HUE", type=int,
                             help="Hue for {}".format(cname), default=ACCENT_COLOR_HUES[ci]);
+
     opt = parser.parse_args();
     opt_h = vars(opt);
 
@@ -110,19 +110,28 @@ def main():
     def lch2rgbhex(l, c, h):
         return lab2rgbhex(l, *p2r(c, h));
 
-    # base
-    for ci, cname in enumerate(BASE_COLOR_NAMES):
-        rgbhex = lab2rgbhex(opt_h[cname+"_l"], opt_h[cname+"_a"], opt_h[cname+"_b"]);
+    # background
+    for ci, cname in enumerate(BG_COLOR_NAMES):
+        rgbhex = lab2rgbhex(opt_h[cname+"_l"], (opt_h[cname+"_a"] or opt.bg_a), (opt_h[cname+"_b"] or opt.bg_b));
         print("{}\t{}".format(cname, rgbhex));
 
-    # default L*
+    # foreground
+    for ci, cname in enumerate(FG_COLOR_NAMES):
+        rgbhex = lab2rgbhex(opt_h[cname+"_l"], (opt_h[cname+"_a"] or opt.fg_a), (opt_h[cname+"_b"] or opt.fg_b));
+        print("{}\t{}".format(cname, rgbhex));
+
+    # accent
     for ci, cname in enumerate(ACCENT_COLOR_NAMES):
         rgbhex = lch2rgbhex(70, opt_h[cname+"_c"], opt_h[cname+"_h"]);
         print("{}\t{}".format(cname, rgbhex));
 
     # various L*
     for l in range(0, 101, 5):
-        # various gray L*
+        # various fg, bg, gray
+        rgbhex = lab2rgbhex(l, opt.fg_a, opt.fg_b);
+        print("fg-l{}\t{}".format(l, rgbhex));
+        rgbhex = lab2rgbhex(l, opt.bg_a, opt.bg_b);
+        print("bg-l{}\t{}".format(l, rgbhex));
         rgbhex = lch2rgbhex(l, 0, 0);
         print("gray-l{}\t{}".format(l, rgbhex));
 
