@@ -12,12 +12,12 @@ Yet another dark color scheme.
 ```
 MELANITE RGBHEX  CIE L*a*b*  ANSI-256 description
 -------- ------- ----------- -------- ---------------------
-base03   #222728  15  -2  -2   16     background
-base02   #42484a  30  -2  -2   59     background highlights
-base01-  #686b6c  45  -1  -1   59     thirdly content (multiple-line comments)
-base01   #757879  50  -1  -1  102     secondly content (comments)
-base00   #c4c7c8  80  -1  -1  188     primary content
-base1    #e0e3e4  90  -1  -1  189*    optional emphasized content
+bg1      #222728  15  -2  -2   16     background
+bg2      #42484a  30  -2  -2   59     background highlights
+fgb      #686b6c  45  -1  -1   59     thirdly content (multiple-line comments)
+fga      #757879  50  -1  -1  102     secondly content (comments)
+fg1      #c4c7c8  80  -1  -1  188     primary content
+fg2      #e0e3e4  90  -1  -1  189*    optional emphasized content
 
 MELANITE RGBHEX  CIE LCH     ANSI-256
 -------- ------- ----------- --------
@@ -47,8 +47,8 @@ violet   #f186d7  70  55 335  212
 ```
 ANSI-16   MELANITE RGBHEX  L*
 --------- -------- ------- ---
-black     base03   #222728
-brblack   base02   #42484a
+black     bg1      #222728
+brblack   bg2      #42484a
 red       red      #f4548a
 brred     red*     #ff72a4  80
 green     green    #83ba54
@@ -61,21 +61,21 @@ magenta   violet   #d46bbb
 brmagenta violet*  #f186d7  80
 cyan      cyan     #00c1b0
 brcyan    cyan*    #40ddcc  80
-white     base00   #c4c7c8
-brwhite   base1    #e0e3e4
+white     fg1      #c4c7c8
+brwhite   fg2      #e0e3e4
 ```
 
 ## Base16 compatible values
 ```
 base16 MELANITE RGBHEX   L*
 ------ -------- -------- ---
-base00 base03   #222728   15
+base00 bg1      #222728   15
 base01 N/A      #2c3133   20
-base02 base02   #42484a   30
-base03 base01   #757879   50
+base02 bg2      #42484a   30
+base03 fga      #757879   50
 base04 N/A      #a9acad   70
-base05 base00   #c4c7c8   80
-base06 base1    #e0e3e4   90
+base05 fg1      #c4c7c8   80
+base06 fg2      #e0e3e4   90
 base07 N/A      #f4fbfd   98
 base08 red*     #ff6397   65
 base09 orange*  #ff9e26   75
@@ -93,13 +93,13 @@ Light theme is not well-tested, these are tentative values.
 ```
 base16 MELANITE RGBHEX   L* (a*b*)
 ------ -------- -------- -----------
-base00 base03   #222728   15  -2  -2
+base00 bg1      #222728   15  -2  -2
 base01 N/A      #2c3133   20  -2  -2
-base02 base02*  #444748   30  -1  -1
-base03 base01   #757879   50  -1  -1
+base02 bg2*     #444748   30  -1  -1
+base03 fga      #757879   50  -1  -1
 base04 N/A      #a9acad   70  -1  -1
-base05 base00   #c4c7c8   80  -1  -1
-base06 base1*   #e9e2cf   90   0  10
+base05 fg1      #c4c7c8   80  -1  -1
+base06 fg2*     #e9e2cf   90   0  10
 base07 N/A      #fff9e6   98   0  10
 base08 red*     #e5457d   55
 base09 orange*  #e68400   65
