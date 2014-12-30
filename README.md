@@ -3,13 +3,13 @@ Yet another dark color scheme.
 
 ## Previews
 ### iTerm2
-![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-preview.png)
+![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/iterm2.png)
 
 ### LimeChat (OS X)
-![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/melanite-preview.png)
+![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/previews/limechat-osx.png)
 
 ### base16
-![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/base16/melanite-preview.png)
+![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/base16.png)
 
 ## The values
 ```
@@ -114,4 +114,4 @@ base0E purple*  #a482d2   60
 base0F violet*  #c65dad   55
 ```
 
-![melanite-light Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/schemes/base16/melanite-light-preview.png)
+![melanite-light Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/base16-light.png)
