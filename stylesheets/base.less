@@ -1,5 +1,8 @@
 @import "syntax-variables";
 
+// -----------------------------------------------------------------------------
+// General
+
 .editor-colors {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -68,4 +71,262 @@
 
 .editor .search-results .marker.current-result .region {
   border: 1px solid @syntax-result-marker-color-selected;
+}
+
+.none {
+  color: @syntax-text-color;
+}
+
+.comment {
+  color: @fga;
+}
+
+// -----------------------------------------------------------------------------
+// For source code (and some markup)
+
+// -----------------------------------------------------------------------------
+// @red (hue: 005)
+// - Invalid code
+
+.invalid {
+  background-color: @red-l50;
+  color: @fg2;
+}
+
+// -----------------------------------------------------------------------------
+// @orange (hue: 065)
+// - String
+// - Interpolated string
+// - Dictionary string value
+
+.string {
+  color: @orange;
+}
+
+.string.interpolated {
+  color: @orange;
+}
+
+.meta.structure.dictionary.value .string {
+  color: @orange;
+}
+
+// -----------------------------------------------------------------------------
+// @yellow (hue: 095)
+// - Constant value
+// - Constant symbol (e.g. :symbol in ruby)
+// - Escape string, placeholder
+// - Unit (e.g. XXpx, XXmm)
+
+.constant.numeric,
+.constant.language,
+.support.constant {
+  color: @yellow-l80;
+}
+
+.constant.other.symbol,
+.punctuation.definition.constant {
+  color: @yellow;
+}
+
+.constant.character.escape,
+.constant.character.entity,
+.constant.other.placeholder {
+  color: @yellow-l80;
+}
+
+.keyword.other.unit {
+  color: @yellow;
+}
+
+// -----------------------------------------------------------------------------
+// @green (hue: 125)
+// - Keyword
+// - Type
+// - Kernel function
+// - Storage
+// - Tag
+// - Dictionary key
+
+.keyword {
+  color: @green;
+}
+
+.support.type {
+  color: @green;
+}
+
+.support.function.kernel {
+  color: @green;
+}
+
+.storage {
+  color: @green;
+}
+
+.entity.name.tag {
+  color: @green;
+}
+
+.meta.structure.dictionary .string {
+  color: @green;
+}
+
+// -----------------------------------------------------------------------------
+// @cyan (hue: 185)
+// - Function
+// - Class definition
+// - Class
+
+.entity.name.function,
+.support.function {
+  color: @cyan;
+}
+
+.entity.name.class,
+.entity.name.type.class {
+  color: @cyan;
+  text-decoration: underline;
+}
+
+.support.class,
+.entity.other.inherited-class {
+  color: @cyan;
+  text-decoration: none;
+}
+
+// -----------------------------------------------------------------------------
+// @blue (hue: 245)
+// - Variables
+// - Constant variables
+
+.variable,
+.punctuation.variable {
+  color: @blue;
+}
+
+.variable.other.constant {
+  color: @blue;
+}
+
+// -----------------------------------------------------------------------------
+// @purple (hue: 305)
+// - Property name
+// - Attribute name
+
+.support.type.property-name {
+  color: @purple;
+}
+
+.entity.other.attribute-name {
+  color: @purple;
+}
+
+// -----------------------------------------------------------------------------
+// @violet (hue: 335)
+// - Embedded string section prefix & suffix (e.g. "#{}" in ruby, "<?php" in php)
+
+.punctuation.section.embedded {
+  color: @violet;
+}
+
+
+// -----------------------------------------------------------------------------
+// For markup
+
+// -----------------------------------------------------------------------------
+// @red (hue: 005)
+// - Strike out
+
+.markup.strike {
+  color: @red-l50;
+  text-decoration: line-through;
+}
+
+// -----------------------------------------------------------------------------
+// @orange (hue: 065)
+// - Raw string (e.g. `` in gfm)
+
+.markup.raw {
+  color: @orange;
+}
+
+// -----------------------------------------------------------------------------
+// @yellow (hue: 095)
+
+// -----------------------------------------------------------------------------
+// @green (hue: 125)
+// - Heading
+
+.markup.heading {
+  color: @green;
+}
+
+.comment .markup.heading {
+  .markup.heading;
+  color: @green-l50;
+}
+
+// -----------------------------------------------------------------------------
+// @cyan (hue: 185)
+
+// -----------------------------------------------------------------------------
+// @blue (hue: 245)
+
+// -----------------------------------------------------------------------------
+// @purple (hue: 305)
+// - Italic
+
+.markup.italic {
+  color: @purple;
+  font-style: italic;
+}
+
+.comment .markup.italic {
+  .markup.italic;
+  color: @purple-l50;
+}
+
+// -----------------------------------------------------------------------------
+// @violet (hue: 335)
+// - Bold
+
+.markup.bold {
+  color: @violet;
+  font-style: bold;
+}
+
+.comment .markup.bold {
+  .markup.bold;
+  color: @violet-l50;
+}
+
+// -----------------------------------------------------------------------------
+// Others
+
+.string.link,
+.markup.link {
+  color: @blue-l85;
+}
+
+.comment {
+  .string.link,
+  .markup.link {
+    color: @blue-l50;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Canceling
+
+.punctuation {
+  color: @syntax-text-color;
+
+  &.comment {
+    .comment;
+  }
+}
+
+.keyword.operator {
+  color: @syntax-text-color;
 }
