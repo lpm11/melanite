@@ -11,6 +11,29 @@ Yet another dark color scheme.
 ### iTerm2
 ![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/iterm2.png)
 
+## Installation
+### Atom
+1. Open the "Settings" window, then select "Themes".
+2. Search theme by "melanite".
+3. Press "Install".
+
+### LimeChat (OS X)
+1. Download theme files into `~/Library/Application Support/LimeChat/Themes`.
+```bash
+cd ~/Library/Application Support/LimeChat/Themes
+curl -O https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/Melanite.css
+curl -O https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/Melanite.yaml
+```
+2. Open the preferences window, then select "Theme" and change Current theme.
+
+### iTerm2
+1. Download theme file from the following url:
+https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite.itermcolors
+2. Open the preferences window, then select "Profile".
+3. Select "Colors" tab, then press "Load Presets..." and "Import...".
+4. Select the file you have downloaded.
+5. Once again press "Load Presets..." and you can find the melanite theme.
+
 ## The values
 ```
 MELANITE RGBHEX  CIE L*a*b*  ANSI-256 description
