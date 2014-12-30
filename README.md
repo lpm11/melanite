@@ -8,9 +8,6 @@ Yet another dark color scheme.
 ### LimeChat (OS X)
 ![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/previews/limechat-osx.png)
 
-### base16
-![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/base16.png)
-
 ## The values
 ```
 MELANITE RGBHEX  CIE L*a*b*  ANSI-256 description
@@ -89,6 +86,8 @@ base0D blue     #80b2d4   70
 base0E purple   #c09cef   70
 base0F violet*  #c65dad   55
 ```
+
+![melanite Preview (base16)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/base16.png)
 
 ## Base16 light theme
 Light theme is not well-tested, these are tentative values.
