@@ -2,11 +2,14 @@
 Yet another dark color scheme.
 
 ## Previews
-### iTerm2
-![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/iterm2.png)
+### Atom
+![melanite Preview (Atom)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/atom-python.png)
 
 ### LimeChat (OS X)
 ![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/previews/limechat-osx.png)
+
+### iTerm2
+![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/iterm2.png)
 
 ## The values
 ```
