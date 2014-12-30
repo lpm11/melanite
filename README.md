@@ -79,7 +79,7 @@ base03 fga      #757879   50
 base04 N/A      #a9acad   70
 base05 fg1      #c4c7c8   80
 base06 fg2      #e0e3e4   90
-base07 N/A      #f4fbfd   98
+base07 N/A      #f7fafb   98
 base08 red*     #ff6397   65
 base09 orange*  #ff9e26   75
 base0A yellow*  #e6d620   85
