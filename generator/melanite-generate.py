@@ -126,7 +126,11 @@ def main():
         print("{}\t{}".format(cname, rgbhex));
 
     # various L*
-    for l in range(0, 101, 5):
+    lights = list(range(0, 101, 5));
+    # more fine values for higher L*
+    lights += list(range(90, 101, 1));
+
+    for l in sorted(set(lights)):
         # various fg, bg, gray
         rgbhex = lab2rgbhex(l, opt.fg_a, opt.fg_b);
         print("fg-l{}\t{}".format(l, rgbhex));
