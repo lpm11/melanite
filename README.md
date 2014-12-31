@@ -5,6 +5,9 @@ Yet another dark color scheme.
 ### Atom
 ![melanite Preview (Atom)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/atom-python.png)
 
+### Visual Studio
+![melanite Preview (Visual Studio)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/visualstudio.png)
+
 ### LimeChat (OS X)
 ![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/previews/limechat-osx.png)
 
@@ -16,6 +19,11 @@ Yet another dark color scheme.
 1. Open the "Settings" window, then select "Themes".
 2. Search theme by "melanite".
 3. Press "Install".
+
+### Visual Studio
+1. Download theme file from the following url:
+https://raw.githubusercontent.com/lpm11/melanite/master/schemes/visualstudio/melanite.vssettings
+2. Follow the instructions at http://studiostyl.es/home/faq to import the theme.
 
 ### LimeChat (OS X)
 1. Download theme files into `~/Library/Application Support/LimeChat/Themes`.
