@@ -1,0 +1,322 @@
+{
+  "Categories": {
+    "Text Editor": {
+      "Items": {
+        "Plain Text": {
+          "bg": @melanite-bg1[],
+          "fg": @melanite-fg1[],
+          "fgrequired": true,
+          "bgrequired": true,
+          "bold": false
+        },
+        "Comment": {
+          "fg": @melanite-fga[],
+          "bg": null,
+          "bold": false
+        },
+        "Selected Text": {
+          "bg": @melanite-bg2[],
+          "bgopacity": 1.0,
+          "bgrequired": true,
+          "nofg": true,
+          "bold": false
+        },
+        "Brace Matching (Rectangle)": {
+          "bg": null,
+          "nobg": true,
+          "fg": @melanite-red[],
+          "nofg": false,
+          "bold": false
+        },
+        "Identifier": {
+          "fg": null,
+          "bg": null,
+          "bold": false
+        },
+        "Number": {
+          "fg": @melanite-yellow-l80[],
+          "bg": null,
+          "bold": false
+        },
+        "Operator": {
+          "fg": @melanite-yellow[],
+          "bg": null,
+          "bold": false
+        },
+        "String": {
+          "fg": @melanite-orange[],
+          "bg": null,
+          "bold": false
+        },
+        "String(C# @ Verbatim)": {
+          "fg": @melanite-orange[]
+        },
+        "URL Hyperlink": {
+          "fg": @melanite-blue-l80[],
+          "bg": null,
+          "bold": false
+        },
+        "User Types": {
+          "fg": @melanite-blue[],
+          "bg": null,
+          "bold": false
+        },
+        "User Types(Enums)": {
+          "fg": @melanite-blue[]
+        },
+        "User Types(Interfaces)": {
+          "fg": @melanite-blue-l60[],
+          "bg": null,
+          "bold": false
+        },
+        "User Types(Delegates)": {
+          "fg": @melanite-cyan[],
+          "bg": null,
+          "bold": false
+        },
+        "User Types(Value types)": {
+          "fg": @melanite-blue[],
+          "bg": null,
+          "bold": false
+        },
+        "Indicator Margin": {
+          "bg": @melanite-gray-l80[],
+          "nofg": true
+        },
+        "Line Numbers": {
+          "fg": @melanite-fga[],
+          "bg": @melanite-bg-l20[]
+        },
+        "Preprocessor Keyword": {
+          "fg": @melanite-purple[],
+          "bg": null,
+          "bold": false
+        },
+        "Keyword": {
+          "fg": @melanite-green[],
+          "bg": null,
+          "bold": false
+        },
+        "Inactive Selected Text": {
+          "bg": @melanite-bg2[],
+          "bgopacity": 0.8,
+          "nofg": true
+        },
+        "Outlining Margin Square": {
+          "fg": @melanite-fg-l40[],
+          "bg": @melanite-bg-l80[]
+        },
+        "Outlining Margin Vertical Rule": {
+          "fg": @melanite-fgb[],
+          "nobg": true
+        },
+        "Syntax Error": {
+          "fg": @melanite-red-l80[],
+          "underline": true,
+          "nobg": true
+        },
+        "Compiler Error": {
+          "fg": @melanite-red-l80[],
+          "underline": true,
+          "nobg": true
+        },
+        "Warning": {
+          "fg": @melanite-yellow-l80[],
+          "underline": true,
+          "nobg": true
+        },
+        "Collapsible Region": {
+          "fg": @melanite-fg1[],
+          "fgrequired": true,
+          "bg": @melanite-bg1[],
+          "bgrequired": true
+        },
+        "Collapsed Text": {
+          "fg": @melanite-fga[],
+          "nobg": true
+        },
+        "Excluded Code": {
+          "fg": @melanite-fgb[]
+        },
+        "Highlighted Reference": {
+          "bg": @melanite-blue-l35[],
+          "nofg": true
+        },
+        "Breakpoint (Enabled)": {
+          "bg": @melanite-red-l25[],
+          "fg": @melanite-fg2[],
+          "fgrequired": true,
+          "bgrequired": true
+        },
+        "Current Statement": {
+          "bg": @melanite-yellow-l50[],
+          "fg": @melanite-fg2[],
+          "fgrequired": true,
+          "bgrequired": true
+        },
+        "C++ Enumerators": {
+          "fg": @melanite-blue[]
+        },
+        "C++ Fields": {
+          "fg": null
+        },
+        "C++ Functions": {
+          "fg": @melanite-cyan[]
+        },
+        "C++ Local Variables": {
+          "fg": null
+        },
+        "C++ Macro": {
+          "fg": @melanite-purple[]
+        },
+        "C++ Member Functions": {
+          "fg": @melanite-cyan[]
+        },
+        "C++ Namespaces": {
+          "fg": @melanite-violet[]
+        },
+        "C++ Parameters": {
+          "fg": null
+        },
+        "C++ Static Fields": {
+          "fg": null
+        },
+        "C++ Static Member Functions": {
+          "fg": @melanite-cyan[]
+        },
+        "C++ User Types": {
+          "fg": @melanite-blue[]
+        },
+        "C++ Variables": {
+          "fg": @melanite-fg1[]
+        },
+        "XML Doc Comment": {
+          "fg": @melanite-fga[],
+          "bg": null,
+          "bold": false
+        },
+        "XML Doc Tag": {
+          "fg": @melanite-fga[]
+        },
+        "CSS Comment": {
+          "fg": @melanite-fga[]
+        },
+        "CSS Keyword": {
+          "fg": @melanite-yellow[]
+        },
+        "CSS Property Name": {
+          "fg": @melanite-green[]
+        },
+        "CSS Property Value": {
+          "fg": null
+        },
+        "CSS Selector": {
+          "fg": @melanite-green[]
+        },
+        "CSS String Value": {
+          "fg": @melanite-orange[]
+        },
+        "HTML Attribute Name": {
+          "fg": @melanite-blue[]
+        },
+        "HTML Attribute Value": {
+          "fg": null
+        },
+        "HTML Comment": {
+          "fg": @melanite-fga[]
+        },
+        "HTML Element Name": {
+          "fg": @melanite-green[]
+        },
+        "HTML Entity": {
+          "fg": @melanite-yellow-l80[]
+        },
+        "HTML Operator": {
+          "fg": null
+        },
+        "HTML Server-Side Script": {
+          "fg": @melanite-violet[],
+          "bg": null
+        },
+        "HTML Tag Delimiter": {
+          "fg": null
+        },
+        "Razor Code": {
+          "bg": @melanite-bg1[],
+          "fg": @melanite-fg1[]
+        },
+        "Script Comment": {
+          "fg": @melanite-fga[]
+        },
+        "Script Identifier": {},
+        "Script Keyword": {
+          "fg": @melanite-green[]
+        },
+        "Script Number": {
+          "fg": @melanite-yellow-l80[]
+        },
+        "Script Operator": {
+          "fg": @melanite-yellow[]
+        },
+        "Script String": {
+          "fg": @melanite-orange[]
+        },
+        "XML Attribute": {
+          "fg": @melanite-blue[]
+        },
+        "XML Attribute Quotes": {
+          "fg": @melanite-fg1[]
+        },
+        "XML Attribute Value": {
+          "fg": @melanite-orange[]
+        },
+        "XML CData Section": {
+          "fg": @melanite-orange-l60[]
+        },
+        "XML Comment": {
+          "fg": @melanite-fga[]
+        },
+        "XML Delimiter": {
+          "fg": null
+        },
+        "XML Name": {
+          "fg": @melanite-green[]
+        },
+        "XML Text": {
+          "fg": null
+        },
+        "XAML Attribute": {
+          "fg": @melanite-blue[]
+        },
+        "XAML Attribute Quotes": {
+          "fg": @melanite-fg1[]
+        },
+        "XAML Attribute Value": {
+          "fg": @melanite-fg1[]
+        },
+        "XAML CData Section": {
+          "fg": @melanite-orange-l60[]
+        },
+        "XAML Comment": {
+          "fg": @melanite-fga[]
+        },
+        "XAML Delimiter": {
+          "fg": @melanite-fg1[]
+        },
+        "XAML Markup Extension Class": {
+          "fg": @melanite-cyan[]
+        },
+        "XAML Markup Extension Parameter Name": {
+          "fg": @melanite-blue[]
+        },
+        "XAML Markup Extension Parameter Value": {
+          "fg": @melanite-fg1[]
+        },
+        "XAML Name": {
+          "fg": @melanite-green[]
+        },
+        "XAML Text": {}
+      }
+    }
+  }
+}
