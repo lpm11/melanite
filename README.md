@@ -43,6 +43,13 @@ https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite.
 https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-darken05.itermcolors
 https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-darken10.itermcolors
 
+### TeXShop
+1. Download theme applier script from the following url:
+https://raw.githubusercontent.com/lpm11/melanite/master/schemes/texshop/melanite-texshop.sh
+2. Execute script you have downloaded.
+3. If you want to reset, follow the instructions at the following url:
+https://github.com/altercation/solarized/issues/167
+
 ## The values
 ```
 MELANITE RGBHEX  CIE L*a*b*  ANSI-256 description
