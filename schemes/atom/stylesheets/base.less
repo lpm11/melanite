@@ -113,10 +113,15 @@
 
 // -----------------------------------------------------------------------------
 // @yellow (hue: 095)
+// - Operator
 // - Constant value
 // - Constant symbol (e.g. :symbol in ruby)
 // - Escape string, placeholder
 // - Unit (e.g. XXpx, XXmm)
+
+.keyword.operator {
+  color: @yellow
+}
 
 .constant.numeric,
 .constant.language,
@@ -126,7 +131,7 @@
 
 .constant.other.symbol,
 .punctuation.definition.constant {
-  color: @yellow;
+  color: @yellow-l80;
 }
 
 .constant.character.escape,
@@ -330,8 +335,4 @@
   &.comment {
     .comment;
   }
-}
-
-.keyword.operator {
-  color: @syntax-text-color;
 }
