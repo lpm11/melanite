@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Ansi 0 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-bg1-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-bg1-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-bg1-bf</real>
+    </dict>
+    <key>Ansi 1 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-red-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-red-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-red-bf</real>
+    </dict>
+    <key>Ansi 2 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-green-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-green-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-green-bf</real>
+    </dict>
+    <key>Ansi 3 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-yellow-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-yellow-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-yellow-bf</real>
+    </dict>
+    <key>Ansi 4 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-blue-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-blue-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-blue-bf</real>
+    </dict>
+    <key>Ansi 5 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-violet-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-violet-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-violet-bf</real>
+    </dict>
+    <key>Ansi 6 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-cyan-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-cyan-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-cyan-bf</real>
+    </dict>
+    <key>Ansi 7 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-fg1-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-fg1-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-fg1-bf</real>
+    </dict>
+    <key>Ansi 8 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-bg2-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-bg2-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-bg2-bf</real>
+    </dict>
+    <key>Ansi 9 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-red-l80-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-red-l80-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-red-l80-bf</real>
+    </dict>
+    <key>Ansi 10 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-green-l80-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-green-l80-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-green-l80-bf</real>
+    </dict>
+    <key>Ansi 11 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-yellow-l80-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-yellow-l80-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-yellow-l80-bf</real>
+    </dict>
+    <key>Ansi 12 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-blue-l80-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-blue-l80-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-blue-l80-bf</real>
+    </dict>
+    <key>Ansi 13 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-violet-l80-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-violet-l80-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-violet-l80-bf</real>
+    </dict>
+    <key>Ansi 14 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-cyan-l80-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-cyan-l80-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-cyan-l80-bf</real>
+    </dict>
+    <key>Ansi 15 Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-fg2-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-fg2-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-fg2-bf</real>
+    </dict>
+    <key>Foreground Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-fg1-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-fg1-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-fg1-bf</real>
+    </dict>
+    <key>Background Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-bg1-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-bg1-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-bg1-bf</real>
+    </dict>
+    <key>Bold Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-fg2-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-fg2-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-fg2-bf</real>
+    </dict>
+    <key>Selection Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-bg2-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-bg2-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-bg2-bf</real>
+    </dict>
+    <key>Selected Text Color</key>
+    <dict>
+      <key>Red Component</key>
+      <real>@melanite-fg2-rf</real>
+      <key>Green Component</key>
+      <real>@melanite-fg2-gf</real>
+      <key>Blue Component</key>
+      <real>@melanite-fg2-bf</real>
+    </dict>
+  </dict>
+</plist>
