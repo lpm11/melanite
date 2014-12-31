@@ -29,10 +29,11 @@ curl -O https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat
 ### iTerm2
 1. Download theme file from the following url:
 https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite.itermcolors
-2. Open the preferences window, then select "Profile".
-3. Select "Colors" tab, then press "Load Presets..." and "Import...".
-4. Select the file you have downloaded.
-5. Once again press "Load Presets..." and you can find the melanite theme.
+2. Open the file you have downloaded.
+3. Open the preferences window, then select "Profile" and you can find the melanite theme.
+4. Accent colors are too bright? You might want to try darken version:
+https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-darken05.itermcolors
+https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-darken10.itermcolors
 
 ## The values
 ```
