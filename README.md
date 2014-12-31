@@ -1,6 +1,15 @@
 # melanite
 Yet another dark color scheme.
 
+Available in formats for:
+
+- Atom
+- Visual Studio
+- iTerm2
+- LimeChat (OS X)
+- TeXShop
+- base16
+
 ## Previews
 ### Atom
 ![melanite Preview (Atom)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/atom-python.png)
@@ -8,11 +17,11 @@ Yet another dark color scheme.
 ### Visual Studio
 ![melanite Preview (Visual Studio)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/visualstudio.png)
 
-### LimeChat (OS X)
-![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/previews/limechat-osx.png)
-
 ### iTerm2
 ![melanite Preview (iTerm2)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/iterm2.png)
+
+### LimeChat (OS X)
+![melanite Preview (LimeChat (OSX))](https://raw.githubusercontent.com/lpm11/melanite/master/previews/limechat-osx.png)
 
 ## Installation
 ### Atom
@@ -25,15 +34,6 @@ Yet another dark color scheme.
 https://raw.githubusercontent.com/lpm11/melanite/master/schemes/visualstudio/melanite.vssettings
 2. Follow the instructions at http://studiostyl.es/home/faq to import the theme.
 
-### LimeChat (OS X)
-1. Download theme files into `~/Library/Application Support/LimeChat/Themes`.
-```bash
-cd ~/Library/Application Support/LimeChat/Themes
-curl -O https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/Melanite.css
-curl -O https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/Melanite.yaml
-```
-2. Open the preferences window, then select "Theme" and change Current theme.
-
 ### iTerm2
 1. Download theme file from the following url:
 https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite.itermcolors
@@ -42,6 +42,15 @@ https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite.
 4. Accent colors are too bright? You might want to try darken version:
 https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-darken05.itermcolors
 https://raw.githubusercontent.com/lpm11/melanite/master/schemes/iterm2/melanite-darken10.itermcolors
+
+### LimeChat (OS X)
+1. Download theme files into `~/Library/Application Support/LimeChat/Themes`.
+```bash
+cd ~/Library/Application Support/LimeChat/Themes
+curl -O https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/Melanite.css
+curl -O https://raw.githubusercontent.com/lpm11/melanite/master/schemes/limechat-osx/Melanite.yaml
+```
+2. Open the preferences window, then select "Theme" and change Current theme.
 
 ### TeXShop
 1. Download theme applier script from the following url:
