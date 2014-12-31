@@ -2,6 +2,10 @@
 import sys;
 import argparse;
 import re;
+from colormath.color_objects import sRGBColor;
+
+import functools;
+strmap = functools.partial(map, str);
 
 def main():
     parser = argparse.ArgumentParser(description="melanite color scheme applier");
@@ -10,11 +14,27 @@ def main():
     parser.add_argument("--exclude-sharp", action="store_true", help="exclude '#' prefix for color code");
     opt = parser.parse_args();
 
-    d = dict(map(lambda c, v: ( c, v ), *zip(*map(lambda x: x.rstrip("\n").split("\t"), open(opt.scheme)))));
-    if (opt.exclude_sharp):
-        d = { c: v[1:] for c, v in d.items() };
+    d = {};
+    for line in map(lambda line: line.rstrip("\n"), open(opt.scheme)):
+        name, color_s = line.split("\t");
+        color = sRGBColor.new_from_rgb_hex(color_s);
+        if (opt.exclude_sharp):
+            color_s = color_s[1:];
+        r, g, b = color.get_upscaled_value_tuple();
+        rf, gf, bf = color.get_value_tuple();
 
-    re_melanite = re.compile(re.escape(opt.prefix) + r"([\-\w]+)");
+        # hexrgb
+        d[name] = color_s;
+        # int rgb
+        d[name+"-r"], d[name+"-g"], d[name+"-b"] = strmap([ r, g, b ]);
+        # float rgb (0.0-1.0)
+        d[name+"-rf"], d[name+"-gf"], d[name+"-bf"] = strmap([ rf, gf, bf ]);
+        # float rgb (0.0-100.0)
+        d[name+"-r%"], d[name+"-g%"], d[name+"-b%"] = strmap([ rf*100, gf*100, bf*100 ]);
+        # int rgb array
+        d[name+"[]"] = "[ {}, {}, {} ]".format(r, g, b);
+
+    re_melanite = re.compile(re.escape(opt.prefix) + r"([\-\w]+(?:-[rgb]|-[rgb]f|-[rgb]%|\[\])?)");
     for line in map(lambda line: line.rstrip("\n"), sys.stdin):
         line = re_melanite.sub(lambda m: d[m.group(1)], line);
         print(line);
