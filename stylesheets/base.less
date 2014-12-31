@@ -180,48 +180,49 @@
 // -----------------------------------------------------------------------------
 // @cyan (hue: 185)
 // - Function
-// - Class definition
-// - Class
 
 .entity.name.function,
 .support.function {
   color: @cyan;
 }
 
+// -----------------------------------------------------------------------------
+// @blue (hue: 245)
+// - Class definition
+// - Enum definition
+// - Class
+
 .entity.name.class,
-.entity.name.type.class {
-  color: @cyan;
+.entity.name.type.class,
+.meta.class-struct-block > .entity.name {
+  color: @blue;
   text-decoration: underline;
 }
 
 .support.class,
 .entity.other.inherited-class {
-  color: @cyan;
+  color: @blue;
   text-decoration: none;
-}
-
-// -----------------------------------------------------------------------------
-// @blue (hue: 245)
-// - Variables
-// - Constant variables
-
-.variable,
-.punctuation.variable {
-  color: @blue;
-}
-
-.variable.other.constant {
-  color: @blue;
 }
 
 // -----------------------------------------------------------------------------
 // @purple (hue: 305)
 // - Preprocessor keyword
+// - Preprocessor function (#define)
+// - Constant variable
 // - Property name
 // - Attribute name
 
 .meta.preprocessor .keyword {
   color: @purple-l60;
+}
+
+.entity.name.function.preprocessor {
+  color: @purple;
+}
+
+.variable.other.constant {
+  color: @purple;
 }
 
 .support.type.property-name {
@@ -240,6 +241,9 @@
   color: @violet;
 }
 
+.meta.namespace-block > .entity.name {
+  color: @violet;
+}
 
 // -----------------------------------------------------------------------------
 // For markup
@@ -335,4 +339,11 @@
   &.comment {
     .comment;
   }
+}
+
+// -----------------------------------------------------------------------------
+// None
+
+.variable,
+.punctuation.variable {
 }
