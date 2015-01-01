@@ -10,6 +10,17 @@ Available in formats for:
 - TeXShop
 - base16
 
+## Color preview
+### Base colors
+Base colors have the same a\* and b\* value between backgrounds and foregrounds.
+
+![base colors](https://raw.githubusercontent.com/lpm11/melanite/master/images/base.png)
+
+### Accent colors
+Accent colors are chosen according to hue values (hue is based on CIE LCH).
+
+![accent colors](https://raw.githubusercontent.com/lpm11/melanite/master/images/accent.png)
+
 ## Previews
 ### Atom
 ![melanite Preview (Atom)](https://raw.githubusercontent.com/lpm11/melanite/master/previews/atom-python.png)
