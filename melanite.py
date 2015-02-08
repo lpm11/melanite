@@ -5,6 +5,7 @@ import math;
 import argparse;
 from colormath.color_objects import *;
 from colormath.color_conversions import convert_color;
+from x256 import x256;
 
 BG_COLOR_A = -2;
 BG_COLOR_B = -2;
@@ -217,7 +218,7 @@ def main():
         def substitute_color(match):
             cname = match.group(1);
             light = int(match.group(2)) if (match.group(2)) else None;
-            suffix = match.group(3) or match.group(4);
+            suffix = match.group(3) or match.group(4) or match.group(5);
 
             color = mkcolor(cname, light);
             rgbhex = color.get_rgb_hex();
@@ -238,10 +239,11 @@ def main():
                     "g%": gf*100,
                     "b%": bf*100,
                     "[]": "[ {}, {}, {} ]".format(r, g, b),
+                    "p": x256.from_rgb(r, g, b),
                 };
                 return str(suffix_dict[suffix]);
 
-        re_melanite = re.compile(re.escape(opt.prefix) + r"([\w]+)(?:-l(\d+))?(?:-([rgb](?:f|%))|(\[\]))?");
+        re_melanite = re.compile(re.escape(opt.prefix) + r"([\w]+)(?:-l(\d+))?(?:-([rgb](?:f|%))|(?:-(p))|(\[\]))?");
         for line in map(lambda line: line.rstrip("\n"), sys.stdin):
             line = re_melanite.sub(substitute_color, line);
             print(line);
