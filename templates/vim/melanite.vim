@@ -356,6 +356,7 @@ exe "hi! Normal"        .s:fg_fg1         .s:bg_bg1         .s:fmt_none
 " Generic Syntax Highlighting: (see :help group-name)"{{{
 " ----------------------------------------------------------------------------
 exe "hi! Comment"         .s:fg_fga         .s:bg_none        .s:fmt_none
+exe "hi! SpecialComment"  .s:fg_fga         .s:bg_none        .s:fmt_none
 
 exe "hi! Constant"        .s:fg_lightyellow .s:bg_none        .s:fmt_none
 exe "hi! Number"          .s:fg_lightyellow .s:bg_none        .s:fmt_none
@@ -391,7 +392,6 @@ exe "hi! Special"         .s:fg_green       .s:bg_none        .s:fmt_none
 "		SpecialChar"
 "		Tag"
 "		Delimiter"
-"		SpecialComment"
 "		Debug"
 "
 exe "hi! Underlined"      .s:fg_blue        .s:bg_none        .s:fmt_none
