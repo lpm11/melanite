@@ -1,0 +1,62 @@
+bgcolor "235" ; // the background color for documents
+context "238" ; // the color for context lines (when specified with line ranges)
+
+keyword "107" ; // for language keywords
+type "107" ; // for basic types
+usertype "110" ; // for user defined types
+string "208" ; // for strings and chars
+regexp "208" ; // for strings and chars
+specialchar "142" ; // for special chars, e.g., \n, \t, \\
+comment "243" ; // for comments
+number "184" ;	// for literal numbers
+preproc "147" ; // for preproc directives (e.g. #include, import)
+// symbol "184" ; // for simbols (e.g. <, >, +)
+function "37" ; // for function calls and declarations
+cbracket "251"; // for block brackets (e.g. {, })
+todo "107" b;	// for TODO and FIXME
+code "107" b; // for code snippets
+
+//Predefined variables and functions (for instance glsl)
+predef_var "67" ;
+predef_func "67" ;
+
+// for OOP
+classname "37" u ; // for class names, e.g., in Java and C++
+
+// line numbers
+linenum "242";
+
+// Internet related
+url "153" u;
+
+// other elements for ChangeLog and Log files
+date "142" ;
+time "142" ;
+name "107" ;
+file "110" ;
+ip "110" ;
+
+// for Prolog, Perl...
+variable "110" ;
+
+// explicit for Latex
+italics "212" i;
+bold "205" b;
+underline "212" u;
+math "208";
+
+// for diffs (not implemented)
+// oldfile orange;
+// newfile "darkgreen";
+// difflines blue; 
+
+// for css
+selector "107";
+property "107";
+
+// for C (or other language) labels
+label "37";
+
+// for errors
+error "205" b;
+warning "205";

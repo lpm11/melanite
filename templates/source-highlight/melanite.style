@@ -1,0 +1,62 @@
+bgcolor "@melanite-bg1-p" ; // the background color for documents
+context "@melanite-bg2-p" ; // the color for context lines (when specified with line ranges)
+
+keyword "@melanite-green-p" ; // for language keywords
+type "@melanite-green-p" ; // for basic types
+usertype "@melanite-blue-p" ; // for user defined types
+string "@melanite-orange-p" ; // for strings and chars
+regexp "@melanite-orange-p" ; // for strings and chars
+specialchar "@melanite-yellow-p" ; // for special chars, e.g., \n, \t, \\
+comment "@melanite-fga-p" ; // for comments
+number "@melanite-yellow-l80-p" ;	// for literal numbers
+preproc "@melanite-purple-p" ; // for preproc directives (e.g. #include, import)
+// symbol "@melanite-yellow-l80-p" ; // for simbols (e.g. <, >, +)
+function "@melanite-cyan-p" ; // for function calls and declarations
+cbracket "@melanite-fg1-p"; // for block brackets (e.g. {, })
+todo "@melanite-green-p" b;	// for TODO and FIXME
+code "@melanite-green-p" b; // for code snippets
+
+//Predefined variables and functions (for instance glsl)
+predef_var "@melanite-blue-l60-p" ;
+predef_func "@melanite-blue-l60-p" ;
+
+// for OOP
+classname "@melanite-cyan-p" u ; // for class names, e.g., in Java and C++
+
+// line numbers
+linenum "@melanite-fgb-p";
+
+// Internet related
+url "@melanite-blue-l80-p" u;
+
+// other elements for ChangeLog and Log files
+date "@melanite-yellow-p" ;
+time "@melanite-yellow-p" ;
+name "@melanite-green-p" ;
+file "@melanite-blue-p" ;
+ip "@melanite-blue-p" ;
+
+// for Prolog, Perl...
+variable "@melanite-blue-p" ;
+
+// explicit for Latex
+italics "@melanite-violet-p" i;
+bold "@melanite-red-p" b;
+underline "@melanite-violet-p" u;
+math "@melanite-orange-p";
+
+// for diffs (not implemented)
+// oldfile orange;
+// newfile "darkgreen";
+// difflines blue; 
+
+// for css
+selector "@melanite-green-p";
+property "@melanite-green-p";
+
+// for C (or other language) labels
+label "@melanite-cyan-p";
+
+// for errors
+error "@melanite-red-p" b;
+warning "@melanite-red-p";
