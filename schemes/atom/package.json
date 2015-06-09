@@ -1,7 +1,7 @@
 {
   "name": "melanite-syntax",
   "theme": "syntax",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A yet another dark syntax theme.",
   "repository": "https://github.com/lpm11/atom-melanite-syntax",
   "license": "MIT",
