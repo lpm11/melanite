@@ -187,6 +187,7 @@ atom-text-editor .search-results .marker.current-result .region,
 // - Class definition
 // - Enum definition
 // - Class
+// - List bullet points / numbers
 
 .entity.name.class,
 .entity.name.type.class,
@@ -197,6 +198,12 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .support.class,
 .entity.other.inherited-class {
+  color: @blue;
+  text-decoration: none;
+}
+
+.variable.unordered.list,
+.variable.ordered.list {
   color: @blue;
   text-decoration: none;
 }
