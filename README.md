@@ -4,6 +4,7 @@ Yet another dark color scheme.
 Available in formats for:
 
 - Atom
+  - term3
 - Visual Studio
 - iTerm2
 - LimeChat (OS X)
